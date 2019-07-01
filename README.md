@@ -2,7 +2,7 @@
 
 ## Objective
 
-The goal of this lab is to get comfortable performing CRUD (Create, Read,
+The goal of this exercise is to get comfortable performing CRUD (Create, Read,
 Update, Delete) actions using Active Record.
 
 There are different ways to solve this lab so feel free to experiment!
@@ -33,11 +33,11 @@ your migration file. Once you have a migration file add columns like so:
 
 After your migration is ready run `rake db:migrate` to
 migrate your table and `rake db:migrate SINATRA_ENV=test` to migrate a test
-database so you will be able to run `learn`
+database.
 
 ### Tests
 
-Run `rspec` or `learn` to see the tests. To make them pass open
+Run `rspec` to see the tests. To make them pass open
 `movie_controller.rb` and complete each method. It will help to open
 `spec/models/movie_spec.rb` to see exactly what each spec is testing for.
 
